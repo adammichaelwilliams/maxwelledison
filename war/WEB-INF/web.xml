@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Populate</servlet-name>
+		<servlet-class>com.fbs.WebServicePopulate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Populate</servlet-name>
+		<url-pattern>/populate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PopulationControl</servlet-name>
+		<servlet-class>com.fbs.WebServicePopulationControl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PopulationControl</servlet-name>
+		<url-pattern>/populateAll</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Query</servlet-name>
+		<servlet-class>com.fbs.WebServiceQuery</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Query</servlet-name>
+		<url-pattern>/query</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

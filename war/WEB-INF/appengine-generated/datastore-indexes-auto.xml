@@ -1,0 +1,10 @@
+<!-- Indices written at Sat, 26 Mar 2011 17:47:38 UTC -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="com_fbs_datamodel_DataObject" ancestor="true" source="auto">
+        <property name="updated_time_twig" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>
