@@ -1,0 +1,91 @@
+body,html
+{
+	padding: 0px;
+	margin: 0px;
+	background: ;
+}
+#header
+{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#namesearch
+{
+}
+#querysearch
+{
+}
+#advanced
+{
+}
+#advancedtype
+{
+	width: 200px; 
+	height: 200px; 
+	float: left; 
+	text-align: left;
+	margin-left: 150px;
+}
+#advancedsortby
+{
+	width: 200px; 
+	height: 200px; 
+	float: left; 
+	text-align: left;
+	margin-right: 80px;
+	margin-left: 70px;
+}
+#advancedstartend
+{
+	
+}
+.thebox
+{
+	width: 700px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	background: #3b5998;
+	color: white;
+	font-family: 'Klavika', helvetica, Arial;
+	letter-spacing: 0px;
+	border: 1px black solid;
+	border-radius: 10px; 
+	-moz-border-radius: 10px;
+}
+.inputstyle
+{
+	font-size: 26px;
+	width: 600px;
+	font-family: 'Lucida Grande', helvetica, Arial;
+	font-weight: bold;
+	margin: auto;
+}
+.shadow {
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+}
+
+a:link
+{
+	color: white;
+	text-decoration: none;
+}
+a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+a:active
+{
+	color: white;
+	text-decoration: none;
+}
+

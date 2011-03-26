@@ -1,0 +1,17 @@
+$(document).ready(function()
+{
+	$("#querysearch").hide();
+	$("#namesearch").hide();
+	$("#advanced").hide();
+	$("#namesearcherror").hide();
+	$("#namesearch").fadeIn();
+	$("#namesubmit").click(function()
+	{
+		$("#querysearch").slideDown(300);
+		$("#namesubmit").fadeOut();
+	});
+	$("#advancedbutton").click(function()
+	{
+		$("#advanced").fadeIn();
+	});
+})
